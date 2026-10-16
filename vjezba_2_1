@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huntress - Kibernetička sigurnost</title>
+</head>
+<body>
 
+    <h1>Huntress - Kibernetička sigurnost</h1>
+
+    <h2>Zaštita od kibernetičkih prijetnji</h2>
+
+    <p>
+        Huntress blog donosi informacije o kibernetičkoj
+        sigurnosti i najnovijim internetskim prijetnjama.
+        Blog pomaže korisnicima razumjeti hakerske napade,
+        zlonamjerne programe i sigurnosne rizike.
+    </p>
+
+    <p>
+        Huntress istražuje stvarne kibernetičke napade,
+        ucjenjivačke programe i sigurnosne ranjivosti.
+        Stručnjaci analiziraju metode napadača i
+        objašnjavaju kako organizacije mogu bolje
+        zaštititi svoje sustave i podatke.
+    </p>
+
+    <figure>
+        <a href="https://cdn.builder.io/api/v1/image/assets%2F3eb6f92aedf74f109c7b4b0897ec39a8%2Fbf879a26d9994fd8b3b0d8878c9474f4?width=200&height=10000&format=webp&quality=85"
+           target="_blank">
+            <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F3eb6f92aedf74f109c7b4b0897ec39a8%2Fbf879a26d9994fd8b3b0d8878c9474f4?width=200&height=10000&format=webp&quality=85"
+                alt="Huntress kibernetička sigurnost"
+                title="Apsolutna putanja"
+                width="200"
+            >
+        </a>
+        <figcaption>Huntress – kibernetička sigurnost (apsolutna putanja)</figcaption>
+    </figure>
+
+    <figure>
+        <a href="slike/huntress.jpg" target="_blank">
+            <img
+                src="slike/huntress.jpg"
+                alt="Huntress zaštita od prijetnji"
+                title="Relativna putanja"
+                width="200"
+            >
+        </a>
+        <figcaption>Huntress – zaštita od prijetnji (relativna putanja)</figcaption>
+    </figure>
+
+</body>
+</html>
