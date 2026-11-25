@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 5px;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.main-nav {
+    background-color: #333;
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.main-nav a[href] {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #999;
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #333;
+}
+
+.main-nav a:link {
+    color: white;
+}
+
+.main-nav a:visited {
+    color: #dddddd;
+}
+
+.main-nav a[href="galerija.html"] {
+    background-color: #007bff;
+}
+
+.main-nav a[href^="https"] {
+    border-color: #ffcc00;
+}
+
+.main-nav a[target="_blank"] {
+    background-color: #ffcc00;
+    color: black;
+}
+
+.main-nav a[target="_blank"]::after {
+    content: " ↗";
+}
+
+.main-nav a:hover {
+    background-color: #666666;
+    color: white;
+}
+
+.main-nav a:focus {
+    outline: 2px solid #ffcc00;
+}
+
+.main-nav a:active {
+    background-color: red;
+    color: white;
+}
+
+main {
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+}
+
+footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+main h1 {
+    text-align: center;
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+main h2 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: #333333;
+    font-size: 20px;
+}
+
+main p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.uvod {
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#osnovan {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+.vazno {
+    color: green;
+    font-weight: bold;
+}
+
+.lego-link {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 5px 10px;
+    color: blue;
+    background-color: #ffffff;
+}
+
+.lego-slika {
+    width: 300px;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lista-tema {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    list-style-type: square;
+}
+
+main .napomena {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.raspored {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.raspored caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.raspored th,
+.raspored td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.raspored th {
+    background-color: #fff5cc;
+}
+
+.raspored tbody tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+#radionice h2 {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 5px;
+}
+
+.lego-contact {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #f2f5fa;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+.form-row label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.lego-form input[type="text"],
+.lego-form input[type="email"],
+.lego-form select,
+.lego-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.lego-form input:focus,
+.lego-form select:focus,
+.lego-form textarea:focus {
+    outline: 2px solid #007bff;
+    border-color: #007bff;
+}
+
+.lego-form input:checked {
+    outline: 2px solid green;
+    accent-color: green;
+}
+
+.lego-form input:disabled {
+    background-color: #dddddd;
+    color: #777777;
+    cursor: not-allowed;
+}
+
+.lego-form input:enabled {
+    border-color: #999999;
+}
+
+.lego-form button {
+    background-color: #ffcc00;
+    color: black;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lego-form button:hover {
+    background-color: orange;
+}
+
+.lego-form button:active {
+    background-color: #e5a000;
+}
+
+.lego-gallery {
+    padding: 20px;
+}
+
+.gallery-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.gallery-row img {
+    width: calc((100% - 30px) / 3);
+    min-width: 0;
+    height: 250px;
+    object-fit: contain;
+    padding: 10px;
+    background-color: white;
+    transition: transform 0.3s;
+}
+
+.lego-gallery img[src$=".jpg"] {
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+}
+
+.lego-gallery img[data-set="city"] {
+    border-color: blue;
+}
+
+.lego-gallery img[data-set="technic"] {
+    border-color: orange;
+}
+
+.lego-gallery img[data-set="friends"] {
+    border-color: hotpink;
+}
+
+.lego-gallery img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 10px #aaaaaa;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt – LEGO klub Zagreb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="banner">
+            <img src="lego_banner.jpg" alt="LEGO banner">
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="index.html#o-nama">O nama</a></li>
+                <li><a href="index.html#radionice">Radionice</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li>
+                    <a href="https://www.lego.com" target="_blank">
+                        LEGO službena stranica
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="lego-contact">
+
+            <h2>Kontaktirajte nas – LEGO podrška</h2>
+
+            <p>Ako imate pitanja u vezi LEGO kluba, ispunite kontakt formu.</p>
+
+            <form class="lego-form" action="#" method="post">
+
+                <div class="form-row">
+                    <label for="ime">Ime *</label>
+                    <input type="text" id="ime" name="ime"
+                           placeholder="Vaše ime" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="prezime">Prezime *</label>
+                    <input type="text" id="prezime" name="prezime"
+                           placeholder="Vaše prezime" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">E-mail adresa *</label>
+                    <input type="email" id="email" name="email"
+                           placeholder="ime@email.hr" required>
+                </div>
+
+                <div class="form-row">
+
+                    <label for="drzava">Država</label>
+
+                    <select id="drzava" name="drzava">
+                        <option value="hr">Hrvatska</option>
+                        <option value="si">Slovenija</option>
+                        <option value="ba">Bosna i Hercegovina</option>
+                        <option value="rs">Srbija</option>
+                        <option value="ostalo">Ostalo</option>
+                    </select>
+
+                </div>
+
+                <div class="form-row">
+                    <label for="poruka">Poruka</label>
+                    <textarea id="poruka" name="poruka" rows="5"
+                              placeholder="Unesite svoju poruku"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <label>
+                        <input type="checkbox" name="newsletter">
+                        Želim primati LEGO newsletter
+                    </label>
+                </div>
+
+                <div class="form-row">
+
+                    <p>Način dostave:</p>
+
+                    <label>
+                        <input type="radio" name="dostava"
+                               value="standardna" checked>
+                        Standardna dostava
+                    </label>
+
+                    <label>
+                        <input type="radio" name="dostava"
+                               value="brza">
+                        Brza dostava
+                    </label>
+
+                </div>
+
+                <div class="form-row">
+                    <label for="promo">Promo kod</label>
+                    <input type="text" id="promo" name="promo"
+                           placeholder="Trenutno nedostupno" disabled>
+                </div>
+
+                <button type="submit">Pošalji</button>
+
+                <button type="reset">Obriši</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        &copy; Dino Spudic
+    </footer>
+
+</body>
+
+</html>
